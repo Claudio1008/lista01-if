@@ -1,0 +1,10 @@
+console.clear();
+var teclado = require("prompt-sync")();
+var x = parseFloat(teclado("digite o valor de x: "));
+var y = parseFloat(teclado("digite o valor de y: "));
+console.clear();
+console.log("o valor de x \u00E9 " + x + " e o valor de y \u00E9 " + y);
+var aux = x;
+var x = y;
+var y = aux;
+console.log("o valor de x \u00E9 " + x + " e o valor de y \u00E9 " + y);
